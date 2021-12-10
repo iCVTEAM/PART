@@ -1,6 +1,6 @@
 #### Part-Guided Relational Transformers for Fine-Grained Visual Recognition
 
-![./figs/pipeline.jpg]()
+![](https://github.com/iCVTEAM/PART/blob/master/figs/motivation.jpg)
 
 This code provides an implementation of the paper "Part-Guided Relational Transformers for Fine-Grained Visual Recognition".  In this paper, we propose to solve this issue in one unified framework from two aspects, i.e., constructing feature-level interrelationships, and capturing part-level discriminative features. This framework, namely **PA**rt-guided **R**elational **T**ransformers (**PART**), is proposed to learn the discriminative part features with an automatic part discovery module, and to explore the intrinsic correlations with a feature transformation module by adapting the Transformer models.
 
