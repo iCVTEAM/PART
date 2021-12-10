@@ -1,0 +1,2 @@
+2021-12-10 09:12:14,381 Transpart.test INFO: Enter inferencing, using the original code without reconstruction
+2021-12-10 09:13:39,066 Transpart.test INFO: acc: 89.6%
