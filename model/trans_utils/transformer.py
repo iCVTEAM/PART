@@ -278,9 +278,9 @@ def build_transformer(d_model, nhead, num_encoder_layers):
     return Transformer(
         d_model=d_model, nhead=nhead, num_encoder_layers=num_encoder_layers,
         num_decoder_layers=6, dim_feedforward=2048, dropout=0.1,
-        activation="gelu", normalize_before=False,
+        activation="gelu", normalize_before=True,
         return_intermediate_dec=True)
-    '''
+    '''  original implementation of our code. uncomment this to set hyper params.
     return Transformer(
         d_model=cfg.hidden_dim,
         dropout=cfg.dropout,
